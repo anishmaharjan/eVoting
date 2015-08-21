@@ -21,20 +21,7 @@
           </div>
         </li>
         <?php } ?>
-        <!-- <li><img src="<?php echo base_url('assets/images/2.jpg'); ?>" alt="" />
-          <div class="floater">
-            <h2>Benjamin Netanyahu</h2>
-            <p>Now vying for his fourth term as prime minister, Benjamin “Bibi” Netanyahu has cast a long shadow over Israeli politics for nearly two decades. US-educated and a leading commando in Israel’s special forces, he rose quickly through the Likud ranks and was elected party chair in 1993. Following Prime Minister Yitzhak Rabin’s assassination and a wave of suicide bombings, Netanyahu’s opposition to the Oslo Accords contributed to his surprise victory over Shimon Peres in 1996 elections</p>
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-          </div>
-        </li>
-        <li><img src="<?php echo base_url('assets/images/3.jpg'); ?>" alt="" />
-          <div class="floater">
-            <h2>Tzipi Livni</h2>
-            <p>Born to one of Israel’s eminent right-wing families, Tzipi Livni has transformed from a star of the Likud to one of Israel’s most vocal two-state advocates. Livni launched her Knesset career in 1999, quickly rising through a number of ministerial portfolios under Prime Minister Ariel Sharon. A moderate among her party colleagues, she was a strong supporter of Sharon’s plan to disengage from the Gaza Strip and ultimately followed Sharon and Ehud Olmert to their centrist Kadima party to become Israel’s second female foreign minister. In that capacity, she spearheaded peace talks with the Palestinians, coming closer than ever before to an agreement, according to Prime Minister Olmert.</p>
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-          </div>
-        </li> -->
+       
       </ul>
     </div>
     <a href="javascript:void(0);" id="featured-item-prev"><img src="<?php echo base_url('assets/css/images/prev.png'); ?>" alt="" /></a> <a href="javascript:void(0);" id="featured-item-next"><img src="<?php echo base_url('assets/css/images/next.png'); ?>" alt="" /></a> </div>
@@ -70,13 +57,13 @@
     <div class="box contactdetails">
       <h2>Our Contact Details !</h2>
       <ul>
-        <li>Anish & Co.</li>
+        <li>ASS & Co.</li>
         <li>25th Backyard &amp; 984984984</li>
         <li>Kathmandu</li>
         <li>44061/+977</li>
         <li>Tel: +977 01 4670287</li>
         <li>Fax: -</li>
-        <li class="last">Email: info@anishco.com</li>
+        <li class="last">Email: info@assco.com</li>
         
       </ul>
     </div>

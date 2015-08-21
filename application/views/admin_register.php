@@ -30,7 +30,7 @@
 
 ?>
 
-<a href="<?php echo base_url(); ?>">Go back</a>
+<a href="<?php echo base_url('admin/powerpage'); ?>">Go back</a>
 
 
 

@@ -9,6 +9,9 @@
 			background: #fafafa;
 
 		}
+		container{
+			width: 800px;
+		}
 
 		caption{
 			font-size:25px;

@@ -30,9 +30,18 @@ class Election extends CI_Controller{
 
 	public function vote_update()
 	{	
+		if($this->model_candi->checkIfVoted())
+		{
+			$this->model_candi->update_record();
+			$this->load->view("vote_success");
+			$this->model_candi->userVoted();
+			
+		}
+		else
+		{
+			echo "gomene!";
 
-		$this->model_candi->update_record();
-		$this->load->view("vote_success");
+		}
 	}
 
 	public function results(){

@@ -45,4 +45,33 @@ class Model_candi extends CI_Model{
 		$this->db->update('candidate',$data);
 		return true;
 	}
+	public function checkIfVoted(){
+
+		$val= $this->session->userdata('username');
+
+		$query = $this->db->query("select vote_id from users where username = '$val'");
+
+		foreach ($query->result() as $row) {
+			$value = (int)$row->vote_id;
+		}
+
+		if($value != 1)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	public function userVoted(){
+		$data= array(
+			'vote_id' => 1
+			);
+		$this->db->where('username',$this->session->userdata('username'));
+		$this->db->update('users',$data);
+	}
+
+
 }
